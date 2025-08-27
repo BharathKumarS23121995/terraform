@@ -80,3 +80,4 @@ output "instance_private_ip" {
   description = "The private IP Addressof the ec2 instance"
   value       = aws_instance.EC2_instance.private_ip
 }
+#tf file
